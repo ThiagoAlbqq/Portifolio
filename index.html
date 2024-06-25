@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Efeito de Scroll</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="stylesheet" href="assets/Css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">Thiago Albuquerque</a>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#projects">Projetos</a>
+        <!-- <a href="#contact">Contact</a> -->
+      </nav>
+    </header>
+    <div class="container">
+      <main>
+        <section id="home">
+          <div class="home-hero">
+            <h1
+              data-scroll
+              data-scroll-speed="3"
+              data-scroll-position="top"
+              data-scroll-direction="horizontal"
+            >
+              Olá, eu sou Thiago Albuquerque
+            </h1>
+            <div class="home-hero-info">
+              <p
+                id="description"
+                data-scroll
+                data-scroll-speed="-3"
+                data-scroll-position="top"
+                data-scroll-direction="horizontal"
+              >
+                Um desenvolvedor da Web orientado a resultados, construindo e
+                gerenciando sites e aplicativos da Web que levam ao sucesso do
+                produto geral.
+              </p>
+            </div>
+            <div class="home-hero-link">
+              <a href="#projects" class="button">Projetos</a>
+            </div>
+          </div>
+          <div class="home-hero-contact">
+            <ul>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/thiagoalbqq/"
+                  target="_blank"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/ThiagoAlbqq"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+              <!-- <li>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </li> -->
+            </ul>
+          </div>
+        </section>
+        <section id="about">
+          <div class="about-hero">
+            <h1>Sobre mim</h1>
+            <div class="about-hero-info">
+              <p>
+                Aqui você encontrará mais informações sobre mim, o que faço e
+                minhas habilidades atuais principalmente em termos de
+                programação e tecnologia.
+              </p>
+            </div>
+            <div class="about-hero-skills">
+              <section class="about-me">
+                <h2>Me conheça</h2>
+                <div>
+                  <p>
+                    Sou um desenvolvedor Web focado em Frontend, construindo e
+                    gerenciando o Front-end de sites e aplicações Web que levam
+                    ao sucesso do produto geral. Confira alguns dos meus
+                    trabalhos na seção Projetos.
+                  </p>
+                  <p>
+                    Também gosto de compartilhar conteúdo relacionado ao que
+                    aprendi ao longo dos anos em Desenvolvimento Web para que
+                    possa ajudar outras pessoas da Comunidade de
+                    Desenvolvimento. Sinta-se à vontade para se conectar ou me
+                    seguir no Linkedin e no GitHub, onde posto conteúdo útil
+                    relacionado ao desenvolvimento e programação web.
+                  </p>
+                  <p>
+                    Estou aberto a oportunidades de trabalho onde possa
+                    contribuir, aprender e crescer. Se tiver uma boa
+                    oportunidade que corresponda às minhas competências e
+                    experiência, não hesite em contactar-me.
+                  </p>
+                </div>
+                <a href="#contact" class="button">Contato</a>
+              </section>
+              <section class="about-skills">
+                <h2>Minhas Habilidades</h2>
+                <div class="skills">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>React</span>
+                  <span>GIT</span>
+                  <span>GitHub</span>
+                  <span>NodeJS</span>
+                </div>
+              </section>
+            </div>
+          </div>
+        </section>
+        <section id="projects">
+          <div class="projects-hero">
+            <h1 class="title">Projetos</h1>
+            <div class="about-hero-info">
+              <p>
+                Aqui você encontrará alguns dos projetos pessoais que criei,
+                cada projeto contendo seu próprio estudo de caso.
+              </p>
+            </div>
+            <div class="container-projects">
+              <div class="project">
+                <img src="imgs/project1.png" alt="" />
+                <div class="project-description">
+                  <h2>Buscador de CEP</h2>
+                  <p>
+                    O projeto consiste na criação de um buscador de CEP (Código
+                    de Endereçamento Postal) utilizando tecnologias web
+                    modernas. O objetivo principal é permitir que os usuários
+                    insiram um CEP e obtenham informações detalhadas sobre o
+                    endereço correspondente de forma rápida e intuitiva.
+                  </p>
+                  <a href="#" class="button">Case Study</a>
+                </div>
+              </div>
+              <div class="project">
+                <img src="imgs/project2.png" alt="" />
+                <div class="project-description">
+                  <h2>Pagina de Login</h2>
+                  <p>
+                    O projeto consiste na criação de uma página de login
+                    utilizando tecnologias web, sem a necessidade de integração
+                    com um banco de dados. O objetivo principal é fornecer uma
+                    interface simples para os usuários acessarem a aplicação com
+                    credenciais pré-definidas no código.
+                  </p>
+                  <a href="#" class="button">Case Study</a>
+                </div>
+              </div>
+              <div class="project">
+                <img src="imgs/project3.png" alt="" />
+                <div class="project-description">
+                  <h2>Relogio / Contagem Regressiva</h2>
+                  <p>
+                    O projeto consiste na criação de um relógio digital que
+                    exibe a hora atual em tempo real e realiza uma contagem
+                    regressiva até o final do ano corrente utilizando
+                    tecnologias web. A aplicação permitirá aos usuários
+                    visualizarem o tempo restante até a virada do ano de forma
+                    interativa e informativa.
+                  </p>
+                  <a href="#" class="button">Case Study</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <span class="saudacao">Obrigado pela atenção</span>
+        <span class="name">Thiago Albuquerque</span>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="assets/JavaScript/script.js"></script>
+  </body>
+</html>

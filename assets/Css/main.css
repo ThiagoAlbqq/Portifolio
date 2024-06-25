@@ -1,0 +1,6 @@
+/* Importação dos estilos específicos para cada seção */
+@import url(./home.css);
+@import url(./about.css);
+@import url(./projects.css);
+
+/* Qualquer estilo adicional que se aplique a todas as seções pode ser colocado aqui */

@@ -1,0 +1,180 @@
+#about {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  background-color: #f0f0f0;
+  padding: 50px 0;
+}
+
+#about {
+  padding-top: 10vh;
+}
+
+.about-hero {
+  position: relative;
+  max-width: 90%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 2.5rem;
+  color: #202020;
+  text-transform: uppercase;
+}
+
+.about-hero-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.about-hero-info p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  max-width: 50rem;
+}
+
+.about-hero-skills {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.about-hero-skills .about-me {
+  flex: 1 0 calc(50% - 10px);
+  padding-right: 20px;
+}
+
+.about-hero-skills .about-skills {
+  flex: 1 0 calc(50% - 10px);
+  padding-left: 20px;
+}
+
+.about-me,
+.about-skills {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-me h2,
+.about-skills h2 {
+  padding-left: 10px;
+}
+
+.about-me div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-me p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-align: start;
+}
+
+.about-skills div {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.about-skills span {
+  display: inline-block;
+  background-color: #d3d3d3;
+  border: 1px solid transparent;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: min-content;
+  transition: all 0.2s;
+}
+
+.about-skills span:hover {
+  border-color: #999999;
+}
+
+.about-me a {
+  width: min-content;
+  text-align: center;
+  padding: 20px 60px;
+}
+
+@media (max-width: 1200px) {
+  .about-hero-skills {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .about-hero-skills .about-me,
+  .about-hero-skills .about-skills {
+    align-items: start;
+  }
+
+  .skills {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  #about {
+    padding-top: 10vh;
+  }
+
+  .about-hero-info {
+    margin-bottom: 50px; /* Adjust as needed */
+  }
+
+  .about-hero-info p {
+    font-size: 1.2rem;
+  }
+
+  .about-hero-skills .about-me,
+  .about-hero-skills .about-skills {
+    flex: 1 1 100%;
+    padding: 0;
+  }
+
+  .about-hero-skills {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .about-hero-skills .about-me,
+  .about-hero-skills .about-skills {
+    align-items: center;
+  }
+
+  .skills {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-hero h1 {
+    font-size: 2rem;
+  }
+
+  #about {
+    padding-top: 10vh;
+  }
+
+  .about-hero-info p {
+    font-size: 1rem;
+  }
+
+  .about-me a {
+    padding: 10px 20px;
+  }
+}

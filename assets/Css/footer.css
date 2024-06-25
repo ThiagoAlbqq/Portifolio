@@ -1,0 +1,18 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  color: black;
+  height: 50px;
+  background-color: #f0f0f0;
+}
+
+footer .name {
+  border-left: 1px solid black;
+  padding-left: 15px;
+}
+
+footer .saudacao {
+  padding-right: 14px;
+}
